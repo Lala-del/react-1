@@ -1,0 +1,89 @@
+.modal-wrapper {
+    background: white;
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin: 0 auto;
+    transition: all .8s;
+    position: absolute;
+}
+
+.modal-header {
+    background: darkred;
+    height: 60px;
+    line-height: 40px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.modal-header h3 {
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-body {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.modal-footer {
+    background: darkred;
+    height: 60px;
+    padding: 15px;
+}
+
+.close-modal-btn {
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin: 0;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+.btn-cancel, .btn-continue {
+    background: coral;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-cancel {
+    background-color:darkred;
+    margin-left: 140px;
+}
+.btn-continue {
+    background-color: darkred;
+    margin-left: 20px;
+
+}
+
+.back-drop {
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}
+
+.open-modal-btn {
+    font-size: 13px;
+    border-radius: 6px;
+    background-color: #1e1e20;
+    color: white;
+    width: 100px;
+    height: 29px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
